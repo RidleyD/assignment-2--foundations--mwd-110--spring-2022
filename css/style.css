@@ -1,5 +1,5 @@
 body {
-  background-color: #006362;
+  background-color: rgb(0, 99, 98);
 }
 h1 {
   color: #FFC745;
@@ -25,5 +25,26 @@ h5,
 h6 {
   font-family: var(--font-family--headings);
   font-style: italic;
+}
+
+html,
+body,
+div {
+  padding: 0;
+  margin: 0;
+}
+
+
+
+span {
+  display: inline-block;
+  line-height: 1.4;
+  padding: 20px;
+  background-color: rgba(0, 99, 98, 0.6);
+}
+
+#container-with-background {
+  height: 100vh;
+  background: rgb(76, 0, 255) url('../img/raheem-sterling-hero.jpg') no-repeat fixed 0 0 / cover;
 }
 
